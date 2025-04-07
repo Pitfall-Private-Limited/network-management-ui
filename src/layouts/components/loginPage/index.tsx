@@ -102,7 +102,7 @@ export default function LoginPage() {
                 {/* <IconButton variant="soft" color="primary" size="sm">
                 <BadgeRoundedIcon />
               </IconButton> */}
-                <Typography level="title-lg">Company logo</Typography>
+                <Typography level="title-lg"></Typography>
               </Box>
               {/* <ColorSchemeToggle /> */}
             </Box>
@@ -141,13 +141,7 @@ export default function LoginPage() {
                     </Link>
                   </Typography>
                 </Stack>
-                <Button
-                  variant="soft"
-                  color="neutral"
-                  fullWidth
-                >
-                  Continue with Google
-                </Button>
+                
               </Stack>
               <Divider
                 sx={(theme:string) => ({

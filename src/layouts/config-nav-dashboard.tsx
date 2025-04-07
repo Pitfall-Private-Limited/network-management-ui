@@ -28,11 +28,7 @@ export const navData = [
   //     </Label>
   //   ),
   // },
-  {
-    title: 'Blog',
-    path: '/blog',
-    icon: icon('ic-blog'),
-  },
+  
   // {
   //   title: 'Sign in',
   //   path: '/sign-in',

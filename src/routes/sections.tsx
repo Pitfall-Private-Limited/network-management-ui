@@ -13,7 +13,6 @@ import RegisterPage from 'src/layouts/components/RegisterPage';
 // ----------------------------------------------------------------------
 
 export const HomePage = lazy(() => import('src/pages/home'));
-export const BlogPage = lazy(() => import('src/pages/blog'));
 export const UserPage = lazy(() => import('src/pages/user'));
 export const SignInPage = lazy(() => import('src/pages/sign-in'));
 //export const RegisterPage = lazy(() => import('src/pages/logout'));
@@ -65,7 +64,6 @@ export function Router() {
         { element: <HomePage />, index: true },
         { path: 'cow', element: <UserPage /> },
         // { path: 'products', element: <ProductsPage /> },
-        { path: 'blog', element: <BlogPage /> },
        // { path: 'logout', element: <LogoutPage/>}
         
       ],

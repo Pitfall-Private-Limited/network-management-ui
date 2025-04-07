@@ -1,13 +1,10 @@
 // ----------------------------------------------------------------------
 
 export const _workspaces = [
-  {
-    id: 'team-1',
-    name: 'Admin',
-  },
+  
   {
     id: 'team-2',
-    name: 'User 1',
+    name: '',
   },
   // {
   //   id: 'team-3',
